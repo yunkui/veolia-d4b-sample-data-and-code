@@ -1,0 +1,11 @@
+﻿TAGID,PLCTAG,BizLine,Project,Description_CN,Description_EN,ProcessDataType,ProcessUnit,DataType,Unit,MaxValue,MinValue,SystemCode
+101186,AISA0101,Waste,SE433,料坑可燃气体分析,Waste Pit LEL Sensor,工艺模拟量/Process Value,Solid Waste Feeding System,32-位浮点数 IEEE 754/32 bit Float,%LEL,100,0,S01
+101202,AIAS0407,Waste,SE433,酸性罐区可燃气体分析,Acid Waste Liquid Tank Farm LEL Sensor,工艺模拟量/Process Value,Liquid Injection,32-位浮点数 IEEE 754/32 bit Float,%LEL,100,0,S01
+101203,AIAS0505,Waste,SE433,碱性废液罐区可燃气体分析,Alkali Waste Liquid Tank Farm LEL Sensor,工艺模拟量/Process Value,Liquid Injection,32-位浮点数 IEEE 754/32 bit Float,%LEL,100,0,S01
+101245,B0701_REF_ACT,Waste,SE433,回转窑助燃风机频率反馈,RK Combustion Air Blow Frequency,工艺模拟量/Process Value,RK,32-位浮点数 IEEE 754/32 bit Float,A,70,0,S01
+101248,B0702_SPD_ACT,Waste,SE433,回转窑燃烧器风机速度反馈,RK BMS Combustion Air Blow Speed,工艺模拟量/Process Value,RK,32-位浮点数 IEEE 754/32 bit Float,%,100,0,S01
+101268,B1001_SPD_ACT,Waste,SE433,二燃室燃烧器风机速度反馈,SCC BMS Combustion Air Speed,工艺模拟量/Process Value,SCC,32-位浮点数 IEEE 754/32 bit Float,%,100,0,S01
+101393,ACV1802_ACT,Waste,SE433,补碱液调节阀开度反馈,Alkali Aqua Feeding Control Valve Position,工艺模拟量/Process Value,Scrubber,32-位浮点数 IEEE 754/32 bit Float,%,100,0,S01
+101396,B1804_REF_ACT,Waste,SE433,引风机频率反馈,ID Fan Frequency,工艺模拟量/Process Value,Bag House,32-位浮点数 IEEE 754/32 bit Float,A,890,0,S01
+101890,B0701_REF_GIV,Waste,SE433,回转窑助燃风机频率给定,RK Combustion Air Blower Frequency SP,状态设定值/Process Control SP,RK,32-位浮点数 IEEE 754,%,100,0,S01
+101897,BURNER2_AIR_F_GIV,Waste,SE433,二燃室燃烧器空气流量给定,SCC BMS Combustion Air Flow Control SP,状态设定值/Process Control SP,BMS-SCC,32-位浮点数 IEEE 754,%,0,0,S01
