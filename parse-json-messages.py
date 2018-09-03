@@ -20,9 +20,9 @@ def handler(event, context):
   values = evt['values']
   count_of_value = len(values)
 
-  ACCESS_ID = 'LTAIzozEawa7dTgq'
-  ACCESS_KEY = '21JIIj9oKJDrSRR61flpNl0rqN8KrJ'
-  ENDPOINT = 'http://dh-cn-shanghai.aliyun-inc.com'
+  ACCESS_ID = 'XXXXX'
+  ACCESS_KEY = 'XXXXX'
+  ENDPOINT = 'http://dh-cn-XXXXX.aliyun-inc.com'
   dh = DataHub(ACCESS_ID, ACCESS_KEY, ENDPOINT)
   	
   PROJECT_NAME = 'veolia_d4b_poc'
@@ -53,7 +53,7 @@ def handler(event, context):
     id_tagname       =  id_list[2]
     
     v = value['v']
-    q = value['q']
+    q = 'true' if value['q'] else 'false'
     t = value['t']
     #print("[print7]IoT trigger and send data to FunctionCompute test output, The value is : (%s, %s, %s, %s)" % (id,v,q,t)) 
     
